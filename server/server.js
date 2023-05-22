@@ -4,10 +4,10 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const credentials = {
-    apiKey: '44e9f0e669a7674dd32d256079c913228f78dc9a91e4a3800de1f8dd4d540f3a',
+    apiKey: 'b4bb5c2d5db04722558280f4e7698912943d1cc307669c3729a832b4f5b4ee1c',
     username: 'testprime',  
 }
-// Set up the Africa's Talking API
+// Set up the Africa's Talking API0743380666
 const connectAt = require('africastalking')(credentials);
 // console.log(connectAt);
 const airtime = connectAt.AIRTIME;
