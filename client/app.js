@@ -106,7 +106,7 @@ form.addEventListener('submit', (event) => {
 						console.error('Error sending attempts count', error);
 					});
 
-  console.log(attemptsCount)
+  console.log(attemptsCount);
   console.log(phoneNumber)
 		} else {
 			accountBalance -= stake;			balance.innerHTML = `$${accountBalance.toFixed(2)}`;
